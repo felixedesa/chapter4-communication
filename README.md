@@ -12,14 +12,14 @@ This document provides an overview of the steps and setup required to build a si
 
 Before we begin, ensure you have the following:
 - **Python 2.6 or higher**
-- **easy_install**  
+- **pip, pip3 or conda**  
 - **Pika 0.9.6 or higher**
 
 ---
 
 ## **Step 1: Setting Up Your Environment**
 
-1. Install `easy_install`.  
+1. Install `pip -> brew install pip or sudo apt-get`.  
 2. Install `Pika` using `easy_install` or `pip`.
 
 ---
