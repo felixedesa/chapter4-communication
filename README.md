@@ -54,15 +54,14 @@ The consumer performs the following tasks:
 ## **Step 4: Managing RabbitMQ Server**
 
 Use the following commands to manage RabbitMQ:
-- Check RabbitMQ processes:  
-  `ps aux | grep rabbitmq`  
-- Stop RabbitMQ:  
-  `sudo systemctl stop rabbitmq-server`  
 - Start RabbitMQ:  
   `sudo systemctl start rabbitmq-server`  
+- Stop RabbitMQ:  
+  `sudo systemctl stop rabbitmq-server`  
 - Check RabbitMQ status:  
   `sudo systemctl status rabbitmq-server`  
-
+- Check RabbitMQ processes:  
+  `ps aux | grep rabbitmq` 
 Access the RabbitMQ web management interface at:  
 [http://localhost:15672](http://localhost:15672)
 
